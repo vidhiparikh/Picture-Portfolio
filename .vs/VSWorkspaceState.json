@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\controllers",
+    "\\models",
+    "\\pages",
+    "\\public",
+    "\\public\\js",
+    "\\views",
+    "\\views\\partials",
+    "\\views\\partials\\blocks"
+  ],
+  "SelectedNode": "\\public\\js\\contact.js",
+  "PreviewInSolutionExplorer": false
+}

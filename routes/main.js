@@ -1,0 +1,45 @@
+const vertex = require('vertex360')({site_id: process.env.TURBO_APP_ID})
+const router = vertex.router()
+const ProjectController = require('../controllers/ProjectController')
+
+router.get('/', (req, res) => {
+    const data = req.context
+    const projectCtr = new ProjectController()
+    projectCtr.get()
+        .then(projects => {
+            data['projects'] = projects
+            //console.log('Projects: ' + JSON.stringify(projects))
+            res.render('landing', data)
+        })
+        .catch(err => {
+            res.send('oops'+err.message)
+        })
+    //res.send('Hello')
+})
+
+router.get('/project/:slug', (req, res) => {
+    const data = req.context
+    const projectSlug = req.params.slug
+
+   //res.send('SLUG == ' + projectSlug)
+    const projectCtr = new ProjectController()
+    projectCtr.get({ slug: projectSlug })
+        .then(projects => {
+            const project = projects[0]
+            data['project'] = project
+            res.render('project', data)
+
+
+            if (project.length == 0) {
+                throw new Error('Project Not Found')
+                return
+            }
+           
+        })
+        .catch(err => {
+            res.send('OOPS - '+err.message)
+        })
+
+})
+
+module.exports=router

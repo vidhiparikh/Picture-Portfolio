@@ -1,0 +1,42 @@
+{
+  "hero": {
+    "greeting": "Welcome",
+    "introduction": "Chitra Vidhi",
+    "img_profile": "https://lh3.googleusercontent.com/dxIB9mlFP5tEVwP2onaiB8RroMlTywi6i6FwiOpI-ldiKoGFMNP48nF88riCcOQsxl_fHLPwFD7z4t_hQ65VC7lLbw",
+    "img_background": "https://lh3.googleusercontent.com/5ONSR9dwWhSELY0aPJjtZEKIY1PW9iMIbpwhtzUyWtNeSOFrmSZwXJucVbMcOorjNBr0e6fEE3Bn_G9iAEWIfJ3uyQ"
+  },
+  "projects": {
+    "header": "My Projects",
+    "subheader": "Take a look "
+  },
+  "service": {
+    "img_1": "https://lh3.googleusercontent.com/gZw2gibFTxpbeh3Ib9NDIZomVup18pX27yBJb7PVvLT-ickH9EsbFjcs0VhQQYJ_LT9mUUnJjRarz_CaZDxoRsP7",
+    "img_2": "https://lh3.googleusercontent.com/t4qKJLlVGyrQDwvUH6R9fDE9_J3gYgwL7qEoogrCuFLGn2Kkv0XEsj4-_bPXiYJP0JMZ6cuvHueX2M79vEJTjFFfASY",
+    "img_3": "https://lh3.googleusercontent.com/uOsmQSUxTHHpkXB2B-MJk5FJK16xSEmmr_8qcbjXpkfg7udbyjYugMTe9Thq7fa3iMQe94TmcxKGKt20Jxk3m3b0ow",
+    "img_4": "https://lh3.googleusercontent.com/wV5ezHwg-P-WEeG1pesrNpNBSDATqnTxr4ZTah_wld3ZXW-DbVmAXeAfq5qlyH6OvuKZttRF0nn2K0aaV8SvcI967Q",
+    "img_5": "https://lh3.googleusercontent.com/G23HGLZX7yNkzKWDe8oXRjIGgfznxgg-jKNTmtD2L4MMRPrSuI-77FcNJTK3xEyT2AbOfumIysFx-U3A78TxwbJQyw",
+    "img_6": "https://lh3.googleusercontent.com/MJwNNAhQaXFPTjlofNHh8wcL7Aftu4h0yDP5FTrGC5WZsb9iL9vEIn14Tlgh4K_1y3JIuGh13A1zVw7vdnJW23pLtZ0"
+  },
+  "contact": {
+    "header1": " Let's Collaborate! ",
+    "subheader1": "If you're interested in working with me, fill out the form below."
+  },
+  "image_profile": "https://www.eharmony.co.uk/dating-advice/wp-content/uploads/2011/04/profilephotos-960x640.jpg",
+  "greeting": "Hello welcome to my portfolio",
+  "introduction": "I am a web developer, chitra, vidhi",
+  "languages": [
+    {
+      "name": "javascript",
+      "years": 5
+    },
+    {
+      "name": "scifi",
+      "years": 4
+    },
+    {
+      "name": "c",
+      "years": 2
+    }
+  ]
+
+}
